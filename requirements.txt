@@ -1,0 +1,17 @@
+# === Deep Learning ===
+torch>=2.0.0
+torchvision>=0.15.0
+
+# === Procesamiento de imágenes ===
+opencv-python>=4.8.0
+Pillow>=10.0.0
+
+# === Manipulación de datos ===
+numpy>=1.24.0
+pandas>=2.0.0
+
+# === Visualización ===
+matplotlib>=3.7.0
+
+# === Interfaz de usuario ===
+streamlit>=1.28.0
