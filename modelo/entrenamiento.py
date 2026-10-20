@@ -17,7 +17,7 @@ EPOCAS = 10
 TAMANO_LOTE = 32
 TASA_APRENDIZAJE = 0.0001
 TAMANO_IMAGEN = 224
-FREEZE_BACKBONE = False
+FREEZE_BACKBONE = True
 
 
 def obtener_transformaciones():
