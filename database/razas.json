@@ -1,0 +1,1202 @@
+[
+  {
+    "clave": "afghan_hound",
+    "nombre": "Afgano",
+    "origen": "Afganistán",
+    "tamano": "Grande",
+    "peso": "23-27 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Orgulloso, independiente, elegante y sensible",
+    "descripcion": "Sabueso afgano de pelaje largo y sedoso. Antiguo perro de caza de lebrel, rápido y aristocrático. Necesita dueño con paciencia y experiencia."
+  },
+  {
+    "clave": "african_hunting_dog",
+    "nombre": "Perro de caza africano (Licaón)",
+    "origen": "África subsahariana",
+    "tamano": "Grande",
+    "peso": "18-36 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Sociable en manada, energético y resistente",
+    "descripcion": "Cánido silvestre africano (Lycaon pictus) de pelaje moteado irregular. Cazador cooperativo en manadas, no es una raza doméstica sino una especie silvestre."
+  },
+  {
+    "clave": "airedale",
+    "nombre": "Airedale Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "18-29 kg",
+    "esperanza_vida": "10-14 años",
+    "temperamento": "Valiente, inteligente, alerta y amigable",
+    "descripcion": "El terrier más grande del mundo. Versátil: cazador, policía y compañero. Pelaje rizado, barba característica y personalidad segura de sí misma."
+  },
+  {
+    "clave": "american_staffordshire_terrier",
+    "nombre": "American Staffordshire Terrier",
+    "origen": "Estados Unidos",
+    "tamano": "Mediano",
+    "peso": "18-29 kg",
+    "esperanza_vida": "12-16 años",
+    "temperamento": "Leal, valiente, confiado y afectuoso con su familia",
+    "descripcion": "Perro musculoso y atlético de cabeza ancha. Muy leal a su familia; requiere socialización temprana y dueño responsable con experiencia."
+  },
+  {
+    "clave": "appenzeller",
+    "nombre": "Appenzeller Sennenhund",
+    "origen": "Suiza",
+    "tamano": "Mediano",
+    "peso": "20-30 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Enérgico, alerta, leal e inteligente",
+    "descripcion": "Boyero suizo tricolor (negro, blanco y fuego). Perro de trabajo de pastoreo alpino, muy activo y guardián natural. Necesita ejercicio diario."
+  },
+  {
+    "clave": "australian_terrier",
+    "nombre": "Australian Terrier",
+    "origen": "Australia",
+    "tamano": "Pequeño",
+    "peso": "5-6 kg",
+    "esperanza_vida": "11-15 años",
+    "temperamento": "Valiente, curioso, leal y vivaz",
+    "descripcion": "Terrier pequeño y robusto con pelaje áspero azul-fuego. Antiguo cazador de roedores y serpientes, hoy gran compañero para familias activas."
+  },
+  {
+    "clave": "bedlington_terrier",
+    "nombre": "Bedlington Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "8-11 kg",
+    "esperanza_vida": "13-16 años",
+    "temperamento": "Gentil, inteligente, enérgico y leal",
+    "descripcion": "Aspecto de 'cordero' con pelaje rizado lanudo. Terrier minero de Northumberland, agil y rápido. Sorprende por su delicadeza y apego familiar."
+  },
+  {
+    "clave": "bernese_mountain_dog",
+    "nombre": "Boyero de Berna",
+    "origen": "Suiza",
+    "tamano": "Grande",
+    "peso": "36-48 kg",
+    "esperanza_vida": "7-10 años",
+    "temperamento": "Cariñoso, tranquilo, leal y obediente",
+    "descripcion": "Gigante tricolor del cantón de Berna. Antiguo perro de granja y trineo alpino. Muy familiar y paciente, aunque con esperanza de vida corta."
+  },
+  {
+    "clave": "blenheim_spaniel",
+    "nombre": "Blenheim Spaniel (Cavalier King Charles)",
+    "origen": "Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "5-8 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Afectuoso, dócil, amistoso y adaptable",
+    "descripcion": "Variedad castaño-blanco del Cavalier King Charles Spaniel. Compañero incansable de la realeza británica. Dulce, flexible y excelente con niños."
+  },
+  {
+    "clave": "border_collie",
+    "nombre": "Border Collie",
+    "origen": "Reino Unido",
+    "tamano": "Mediano",
+    "peso": "14-20 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Hiper inteligente, trabajador, enérgico y obediente",
+    "descripcion": "Considerado el perro más inteligente del mundo. Pastor fronterizo nacido para el pastoreo de ovejas. Necesita trabajo mental y físico constante."
+  },
+  {
+    "clave": "border_terrier",
+    "nombre": "Border Terrier",
+    "origen": "Inglaterra/Escocia",
+    "tamano": "Pequeño",
+    "peso": "5-7 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, alegre, obediente y lleno de energía",
+    "descripcion": "Terrier de pastoreo de la frontera escocesa, cabeza de 'nutria'. Robusto, sociable y paciente, uno de los terriers más familiares."
+  },
+  {
+    "clave": "boston_bull",
+    "nombre": "Boston Terrier",
+    "origen": "Estados Unidos",
+    "tamano": "Pequeño",
+    "peso": "5-11 kg",
+    "esperanza_vida": "11-13 años",
+    "temperamento": "Vivo, afectuoso, inteligente y adaptable",
+    "descripcion": "El 'caballero americano': smoking blanco y negro, cara redonda. Perro de compañía elegante y juguetón, ideal para apartamentos."
+  },
+  {
+    "clave": "bouvier_des_flandres",
+    "nombre": "Bouvier de Flandes",
+    "origen": "Bélgica/Francia",
+    "tamano": "Grande",
+    "peso": "27-40 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Leal, valiente, tranquilo y protector",
+    "descripcion": "Perro de trabajo robusto con barba y cejas densas, originario de las granjas flamencas. Excelente guardián y conductor de ganado."
+  },
+  {
+    "clave": "brabancon_griffon",
+    "nombre": "Grifón de Bruselas",
+    "origen": "Bélgica",
+    "tamano": "Pequeño",
+    "peso": "3-6 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Animado, curioso, sensible y apegado",
+    "descripcion": "Cara chata e inteligente, familiar de los demás grifones de Bruselas. Compañero extrovertido y gracioso, muy apegado a su dueño."
+  },
+  {
+    "clave": "brittany_spaniel",
+    "nombre": "Epagneul Bretón",
+    "origen": "Francia",
+    "tamano": "Mediano",
+    "peso": "14-18 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Enérgico, alegre, sensible e inteligente",
+    "descripcion": "Puntero y recolector nacido en Bretaña. Perro de caza versátil y entusiasta, excelente compañía para familias activas al aire libre."
+  },
+  {
+    "clave": "cardigan",
+    "nombre": "Welsh Corgi Cardigan",
+    "origen": "Gales",
+    "tamano": "Mediano",
+    "peso": "14-17 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Leal, inteligente, alerta y resistente",
+    "descripcion": "El corgi más largo y con cola. Antiguo pastor galés de ovejas y ganado, robusto, con mucho carácter y capacidad de trabajo."
+  },
+  {
+    "clave": "chesapeake_bay_retriever",
+    "nombre": "Chesapeake Bay Retriever",
+    "origen": "Estados Unidos",
+    "tamano": "Grande",
+    "peso": "25-36 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Inteligente, resistente, protector y cariñoso",
+    "descripcion": "Retriever de la bahía de Chesapeake, de pelaje ondulado aceitoso impermeable. Nacido para recuperar aves acuáticas en agua helada."
+  },
+  {
+    "clave": "chihuahua",
+    "nombre": "Chihuahua",
+    "origen": "México",
+    "tamano": "Pequeño",
+    "peso": "1-3 kg",
+    "esperanza_vida": "12-20 años",
+    "temperamento": "Alerta, vivaz, leal y a veces temperamental",
+    "descripcion": "La raza más pequeña del mundo. Originaria de México, antigua y sagrada para los toltecas. Audaz a pesar de su talla diminuta."
+  },
+  {
+    "clave": "dandie_dinmont",
+    "nombre": "Dandie Dinmont Terrier",
+    "origen": "Escocia/Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "8-11 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Dócil, afectuoso, valiente y leal",
+    "descripcion": "Terrier de cuerpo largo y cabeza con mechón de pelos sedosos. Cazador de tejones criado en la frontera entre Escocia e Inglaterra."
+  },
+  {
+    "clave": "doberman",
+    "nombre": "Dóberman",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "32-45 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Inteligente, leal, valiente y vigilante",
+    "descripcion": "Perro de trabajo diseñado por Karl Friedrich Louis Dobermann. Guardián elegante y leal, requiere socialización y dueño firme y cariñoso."
+  },
+  {
+    "clave": "english_foxhound",
+    "nombre": "Foxhound Inglés",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "29-34 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Amistoso, paciente, alegre y sociable",
+    "descripcion": "El sabueso por excelencia de la caza del zorro. Perro de jauría, resistente y sociable, criado para correr durante horas con su manada."
+  },
+  {
+    "clave": "english_setter",
+    "nombre": "Setter Inglés",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "20-30 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Gentil, enérgico, inteligente y amigable",
+    "descripcion": "Setter de pelaje sedoso moteado (belton). Elegante perro de muestra de campo, equilibrado y cariñoso, gran compañero de familia."
+  },
+  {
+    "clave": "english_springer",
+    "nombre": "Springer Spaniel Inglés",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "18-25 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Enérgico, cariñoso, inteligente y dócil",
+    "descripcion": "Spaniel nacido para 'salpicar' (spring) la caza. Alegre y trabajador, necesita ejercicio y estimulación mental diaria."
+  },
+  {
+    "clave": "entlebucher",
+    "nombre": "Perro Boyero de Entlebuch",
+    "origen": "Suiza",
+    "tamano": "Mediano",
+    "peso": "20-30 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Vivaz, alerta, leal y trabajador",
+    "descripcion": "El más pequeño de los boyeros suizos tricolores. Antiguo perro de granja y carreta de Entlebuch, valiente y muy energético."
+  },
+  {
+    "clave": "eskimo_dog",
+    "nombre": "Perro Esquimal Canadiense",
+    "origen": "Canadá (Ártico)",
+    "tamano": "Grande",
+    "peso": "30-40 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Independiente, leal, resistente y sociable en manada",
+    "descripcion": "Antiguo perro inuit de trineo, una de las razas más antiguas de Canadá. Escasísimo, resistente al frío extremo y de corazón de lobo domesticado."
+  },
+  {
+    "clave": "french_bulldog",
+    "nombre": "Bulldog Francés",
+    "origen": "Francia",
+    "tamano": "Pequeño",
+    "peso": "8-14 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Juguetón, adaptable, cariñoso y sociable",
+    "descripcion": "Cara de murciélago y cuerpo compacto de molosso. Compañero urbano por excelencia: poco ladrador, adaptable y muy apegado a su familia."
+  },
+  {
+    "clave": "german_shepherd",
+    "nombre": "Pastor Alemán",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "22-40 kg",
+    "esperanza_vida": "9-13 años",
+    "temperamento": "Inteligente, leal, valiente y confiado",
+    "descripcion": "El perro de trabajo universal: policía, militar, rescate y compañía. Extremadamente versátil, aprende rápido y es de los más leales."
+  },
+  {
+    "clave": "german_short_haired_pointer",
+    "nombre": "Braco Alemán de Pelo Corto",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "20-32 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Enérgico, inteligente, leal y cariñoso",
+    "descripcion": "El perro de caza universal alemán. Señalador aponedor y cobrador de tierra y agua, incansable, muy deportista y familiar."
+  },
+  {
+    "clave": "gordon_setter",
+    "nombre": "Gordon Setter",
+    "origen": "Escocia",
+    "tamano": "Grande",
+    "peso": "20-36 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Leal, inteligente, decidido y cariñoso",
+    "descripcion": "Setter negro y fuego, el más grande y pesado de los setters. Perro de muestra nacido para el urogallo escocés, fiel y persistente."
+  },
+  {
+    "clave": "great_dane",
+    "nombre": "Gran Danés",
+    "origen": "Alemania",
+    "tamano": "Gigante",
+    "peso": "45-90 kg",
+    "esperanza_vida": "7-10 años",
+    "temperamento": "Gentil, decidido, amigable y confiado",
+    "descripcion": "El 'Apolo de los perros': alcanza 80 cm a la cruz. Antiguo cazador de jabalíes convertido en gigante gentil de compañía. Esperanza corta."
+  },
+  {
+    "clave": "great_pyrenees",
+    "nombre": "Perro de los Pirineos",
+    "origen": "Francia/España",
+    "tamano": "Gigante",
+    "peso": "36-54 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Tranquilo, paciente, protector y gentil",
+    "descripcion": "Guardián de ovejas en los Pirineos durante siglos. Gigante blanco sereno, valiente ante lobos y osos, muy cariñoso con su rebaño humano."
+  },
+  {
+    "clave": "greater_swiss_mountain_dog",
+    "nombre": "Boyero Suizo Grande",
+    "origen": "Suiza",
+    "tamano": "Grande",
+    "peso": "45-64 kg",
+    "esperanza_vida": "10-11 años",
+    "temperamento": "Vigilante, leal, fuerte e inteligente",
+    "descripcion": "El más grande de los boyeros suizos tricolores. Antiguo perro de granja y tiro de carreta en los Alpes, robusto y poderoso."
+  },
+  {
+    "clave": "ibizan_hound",
+    "nombre": "Galgo Podenco Ibicenco",
+    "origen": "España (Ibiza)",
+    "tamano": "Grande",
+    "peso": "18-29 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Independiente, inteligente, leal y vivaz",
+    "descripcion": "Lebrel de Ibiza de orejas de murciélago y silueta elegante. Cazador de conejos en Baleares desde la antigüedad, ágil y sofisticado."
+  },
+  {
+    "clave": "irish_setter",
+    "nombre": "Setter Irlandés",
+    "origen": "Irlanda",
+    "tamano": "Grande",
+    "peso": "20-30 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Enérgico, cariñoso, entusiasta y afectuoso",
+    "descripcion": "Setter rojo caoba de pelaje sedoso. Perro de muestra de la aristocracia irlandesa, alegre, con un entusiasmo inagotable por la vida."
+  },
+  {
+    "clave": "irish_terrier",
+    "nombre": "Irish Terrier",
+    "origen": "Irlanda",
+    "tamano": "Mediano",
+    "peso": "11-13 kg",
+    "esperanza_vida": "13-15 años",
+    "temperamento": "Valiente, vivaz, leal e inteligente",
+    "descripcion": "Terrier irlandés de pelaje rojo fuego, una de las razas nacionales de Irlanda. Audaz y de gran corazón, compañero incansable."
+  },
+  {
+    "clave": "irish_water_spaniel",
+    "nombre": "Setter Irlandés de Agua",
+    "origen": "Irlanda",
+    "tamano": "Grande",
+    "peso": "20-30 kg",
+    "esperanza_vida": "12-13 años",
+    "temperamento": "Inteligente, enérgico, juguetón y leal",
+    "descripcion": "Spaniel acuático de pelaje rizado y cola de 'rata'. El perro de cobro acuático nacional de Irlanda, noble y deportista."
+  },
+  {
+    "clave": "irish_wolfhound",
+    "nombre": "Lobero Irlandés",
+    "origen": "Irlanda",
+    "tamano": "Gigante",
+    "peso": "40-55 kg",
+    "esperanza_vida": "6-8 años",
+    "temperamento": "Gentil, valiente, leal y sereno",
+    "descripcion": "El perro más alto del mundo (hasta 90 cm). Antiguo cazador de lobos y ciervos por los celtas. Gigante gentil de corazón humilde."
+  },
+  {
+    "clave": "italian_greyhound",
+    "nombre": "Galgo Italiano (Piccolo)",
+    "origen": "Italia",
+    "tamano": "Pequeño",
+    "peso": "3-5 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Sensible, cariñoso, elegante y tranquilo",
+    "descripcion": "La versión miniatura del galgo, favorito de la nobleza italiana y renacentista. Delicado, sensible y profundamente apegado a su dueño."
+  },
+  {
+    "clave": "japanese_spaniel",
+    "nombre": "Chin Japonés",
+    "origen": "Japón/China",
+    "tamano": "Pequeño",
+    "peso": "2-6 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Gentil, cariñoso, elegante y adaptable",
+    "descripcion": "Compañero de la aristocracia japonesa desde hace 1000 años. Rostro chata, elegante y gatuno, muy limpio y de trato exquisito."
+  },
+  {
+    "clave": "kerry_blue_terrier",
+    "nombre": "Kerry Blue Terrier",
+    "origen": "Irlanda",
+    "tamano": "Mediano",
+    "peso": "15-18 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Inteligente, alerta, leal y enérgico",
+    "descripcion": "Terrier irlandés de pelaje azul ondulado que cambia con la edad. Versátil granjero y cazador, con personalidad fuerte y leal."
+  },
+  {
+    "clave": "labrador_retriever",
+    "nombre": "Labrador Retriever",
+    "origen": "Canadá (Terranova)",
+    "tamano": "Grande",
+    "peso": "25-36 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Amistoso, enérgico, inteligente y dócil",
+    "descripcion": "La raza más popular del mundo durante décadas. Recuperador de aves acuáticas excelente, guía de ciegos, terapia y familia."
+  },
+  {
+    "clave": "lakeland_terrier",
+    "nombre": "Lakeland Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "6-8 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, alegre, seguro y enérgico",
+    "descripcion": "Terrier de los lagos ingleses criado para cazar zorros entre las rocas. Atrevido, descarado y de gran corazón para su talla."
+  },
+  {
+    "clave": "leonberg",
+    "nombre": "Leonberger",
+    "origen": "Alemania",
+    "tamano": "Gigante",
+    "peso": "40-77 kg",
+    "esperanza_vida": "7-8 años",
+    "temperamento": "Gentil, amistoso, paciente y fiel",
+    "descripcion": "León de Leonberg: gigante de melena de león creado para representar un escudo del siglo XIII. Gentil gigante y salvavidas acuático."
+  },
+  {
+    "clave": "lhasa",
+    "nombre": "Lhasa Apso",
+    "origen": "Tíbet",
+    "tamano": "Pequeño",
+    "peso": "6-8 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Independiente, alerta, leal y confiado",
+    "descripcion": "Perro guardián de monasterios tibetanos durante siglos. Pelaje largo y abundante, valiente y desconfiado con extraños, devoto con su familia."
+  },
+  {
+    "clave": "maltese_dog",
+    "nombre": "Bichón Maltés",
+    "origen": "Malta/Mediterráneo",
+    "tamano": "Pequeño",
+    "peso": "3-4 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Cariñoso, juguetón, elegante y adaptable",
+    "descripcion": "Compañero aristocrático de pelaje blanco sedoso sin subpelo. Amado por griegos y romanos, hoy perro de compañía ideal en apartamentos."
+  },
+  {
+    "clave": "mexican_hairless",
+    "nombre": "Xoloitzcuintle (Perro sin Pelo Mexicano)",
+    "origen": "México",
+    "tamano": "Pequeño-Mediano-Grande",
+    "peso": "2-24 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Leal, tranquilo, inteligente y atento",
+    "descripcion": "Perro sagrado azteca ligado a Xolotl, dios de la muerte. Varía de tamaño, puede ser sin pelo o con pelaje corto. Patrimonio nacional de México."
+  },
+  {
+    "clave": "newfoundland",
+    "nombre": "Terranova",
+    "origen": "Canadá (Terranova)",
+    "tamano": "Gigante",
+    "peso": "45-68 kg",
+    "esperanza_vida": "9-10 años",
+    "temperamento": "Dulce, paciente, potente y salvador",
+    "descripcion": "Gigante acuático de pelaje negro espeso. Salvavidas nato: salvan personas del agua desde hace siglos. Cariñoso con niños y extraordinariamente gentil."
+  },
+  {
+    "clave": "norfolk_terrier",
+    "nombre": "Norfolk Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "5-6 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, afectuoso, vivaz y sociable",
+    "descripcion": "El 'perro de regazo' de los terriers: orejas caídas, tamaño compacto y carácter dulce. Cazador de ratas convertido en excelente compañero."
+  },
+  {
+    "clave": "norwegian_elkhound",
+    "nombre": "Elkhound Noruego Gris",
+    "origen": "Noruega",
+    "tamano": "Mediano",
+    "peso": "20-23 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, alerta, independiente y leal",
+    "descripcion": "El perro nacional de Noruega. Antiguo cazador de alces y osos de los vikingos. Pelaje gris doble, muy resistente y autosuficiente."
+  },
+  {
+    "clave": "norwich_terrier",
+    "nombre": "Norwich Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "5-6 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, afectuoso, curioso y leal",
+    "descripcion": "El primo orejas erguidas del Norfolk. Perro de granja y cazador de roedores convertido en compañero alegre e intrépido."
+  },
+  {
+    "clave": "old_english_sheepdog",
+    "nombre": "Bobtail (Old English Sheepdog)",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "27-45 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Cariñoso, inteligente, juguetón y adaptable",
+    "descripcion": "El famoso perro pelón blanco y gris de los anuncios. Antiguo pastor de ovejas y ganado bovino, alegre y de andar balanceado."
+  },
+  {
+    "clave": "pekinese",
+    "nombre": "Pequinés",
+    "origen": "China",
+    "tamano": "Pequeño",
+    "peso": "3-6 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Orgulloso, valiente, leal e independiente",
+    "descripcion": "El perro león de la corte imperial china. Sagrado para la dinastía Qing, valiente, digno y profundamente apegado a su dueño."
+  },
+  {
+    "clave": "pembroke",
+    "nombre": "Welsh Corgi Pembroke",
+    "origen": "Gales",
+    "tamano": "Mediano",
+    "peso": "10-13 kg",
+    "esperanza_vida": "12-13 años",
+    "temperamento": "Vivaz, inteligente, leal y valiente",
+    "descripcion": "El corgi favorito de la Reina Isabel II. Pastor de vacas de galés sin cola, sonriente, extremadamente inteligente y trabajador."
+  },
+  {
+    "clave": "pomeranian",
+    "nombre": "Pomerania (Spitz Enano)",
+    "origen": "Región de Pomerania (Alemania/Polonia)",
+    "tamano": "Pequeño",
+    "peso": "1-3 kg",
+    "esperanza_vida": "12-16 años",
+    "temperamento": "Extravertido, vivaz, alerta e inteligente",
+    "descripcion": "Spitz miniatura de pelaje esponjoso y cola enroscada. Orgulloso y valiente, fue favorito de la realeza europea y de Mozart."
+  },
+  {
+    "clave": "rhodesian_ridgeback",
+    "nombre": "Rhodesian Ridgeback",
+    "origen": "África del Sur/Zimbabue",
+    "tamano": "Grande",
+    "peso": "32-41 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Leal, valiente, inteligente e independiente",
+    "descripcion": "El 'león dog' de África: cresta (ridge) de pelo en la espalda. Antiguo cazador de leones de los colonos boers, poderoso y leal."
+  },
+  {
+    "clave": "rottweiler",
+    "nombre": "Rottweiler",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "38-50 kg",
+    "esperanza_vida": "8-11 años",
+    "temperamento": "Confiado, leal, valiente y guardián nato",
+    "descripcion": "Descendiente de perros romanos de pastoreo y tiro. Poderoso, confiado y protector. Excelente guardián que requiere socialización responsable."
+  },
+  {
+    "clave": "saint_bernard",
+    "nombre": "San Bernardo",
+    "origen": "Suiza/Italia",
+    "tamano": "Gigante",
+    "peso": "55-82 kg",
+    "esperanza_vida": "8-10 años",
+    "temperamento": "Gentil, paciente, alerta y afectuoso",
+    "descripcion": "El famoso perro de rescate de los Alpes y del Gran San Bernardo. Salvó cientos de viajeros extraviados. Gigante de corazón noble."
+  },
+  {
+    "clave": "saluki",
+    "nombre": "Galgo Saluki",
+    "origen": "Oriente Medio",
+    "tamano": "Grande",
+    "peso": "18-27 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Gentil, independiente, elegante y sensible",
+    "descripcion": "El perro de la faraones: galgo de pelaje sedoso, antiguo como las pirámides. Cazador de gacelas del desierto, noble y discreto."
+  },
+  {
+    "clave": "samoyed",
+    "nombre": "Samoyedo",
+    "origen": "Siberia (Rusia)",
+    "tamano": "Grande",
+    "peso": "16-30 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Amistoso, juguetón, leal y adaptable",
+    "descripcion": "El perro blanco sonriente de los samoyedos siberianos. Trineo y guardián de renos, conocido por su sonrisa y su pelaje lanudo."
+  },
+  {
+    "clave": "scotch_terrier",
+    "nombre": "Scottish Terrier",
+    "origen": "Escocia",
+    "tamano": "Pequeño",
+    "peso": "8-10 kg",
+    "esperanza_vida": "11-13 años",
+    "temperamento": "Valiente, independiente, alerta y digno",
+    "descripcion": "El famoso 'Scottie' negro de bigotes y cejas. Terrier de caza del highlands, favorito del presidente Roosevelt, valiente y orgulloso."
+  },
+  {
+    "clave": "scottish_deerhound",
+    "nombre": "Lebrel del Ciervo Escocés",
+    "origen": "Escocia",
+    "tamano": "Gigante",
+    "peso": "34-50 kg",
+    "esperanza_vida": "8-11 años",
+    "temperamento": "Gentil, independiente, leal y rápido",
+    "descripcion": "El sabueso de caza del ciervo rojo escocés. Muy similar al Irish Wolfhound, gentil gigante y atleta de resistencia en las highlands."
+  },
+  {
+    "clave": "sealyham_terrier",
+    "nombre": "Sealyham Terrier",
+    "origen": "Gales",
+    "tamano": "Pequeño",
+    "peso": "8-10 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Valiente, vivaz, cariñoso y leal",
+    "descripcion": "Terrier galés blanco con barba y cejas, criado para cazar nutrias y tejones. Animado, tenaz y excelente compañía para caza."
+  },
+  {
+    "clave": "shetland_sheepdog",
+    "nombre": "Pastor de Shetland (Sheltie)",
+    "origen": "Escocia (Shetland)",
+    "tamano": "Pequeño-Mediano",
+    "peso": "6-12 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Inteligente, obediente, ágil y reservado con extraños",
+    "descripcion": "El 'collie en miniatura' de las islas Shetland. Pastor de ovejas y ponis, extraordinariamente inteligente y obediente, muy sociable."
+  },
+  {
+    "clave": "shih_tzu",
+    "nombre": "Shih Tzu",
+    "origen": "Tíbet/China",
+    "tamano": "Pequeño",
+    "peso": "4-7 kg",
+    "esperanza_vida": "10-16 años",
+    "temperamento": "Cariñoso, juguetón, vivaz y adaptable",
+    "descripcion": "El 'perro león' de los palacios chinos, compañero de emperadores. Pelaje largo y sedoso, afectuoso y perfecto para interiores."
+  },
+  {
+    "clave": "siberian_husky",
+    "nombre": "Husky Siberiano",
+    "origen": "Siberia (Rusia)",
+    "tamano": "Mediano-Grande",
+    "peso": "16-27 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Amistoso, saliente, independiente y enérgico",
+    "descripcion": "El perro de trineo de los chukchis de Siberia. Ojos azules penetrantes, resistente al frío y al trabajo en equipo, muy sociable."
+  },
+  {
+    "clave": "staffordshire_bullterrier",
+    "nombre": "Staffordshire Bull Terrier",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "11-17 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Valiente, leal, afectuoso y enérgico",
+    "descripcion": "El 'nanny dog' de Inglaterra: potente pero dulce con niños. Compañero de familia extraordinario que necesita dueño responsable."
+  },
+  {
+    "clave": "sussex_spaniel",
+    "nombre": "Sussex Spaniel",
+    "origen": "Inglaterra",
+    "tamano": "Mediano-Grande",
+    "peso": "16-20 kg",
+    "esperanza_vida": "13-15 años",
+    "temperamento": "Gentil, paciente, alegre y leal",
+    "descripcion": "Spaniel marrón dorado de cuerpo bajo y largo, de Sussex. Perro de caza tranquilo y metódico, muy cariñoso con su familia."
+  },
+  {
+    "clave": "tibetan_mastiff",
+    "nombre": "Mastín Tibetano",
+    "origen": "Tíbet",
+    "tamano": "Gigante",
+    "peso": "45-73 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Independiente, protector, digno y leal",
+    "descripcion": "El guardián de monasterios tibetanos. Gigante de melena impresionante, antiguo como la historia, muy protector y reservado."
+  },
+  {
+    "clave": "tibetan_terrier",
+    "nombre": "Terrier Tibetano",
+    "origen": "Tíbet",
+    "tamano": "Mediano",
+    "peso": "8-14 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Vivo, curioso, leal e inteligente",
+    "descripcion": "El 'perro de la felicidad' tibetano, no es un terrier real sino un perro sagrado de monasterios. Pelaje largo, muy adaptable y alegre."
+  },
+  {
+    "clave": "walker_hound",
+    "nombre": "Walker Hound (English Walker)",
+    "origen": "Estados Unidos",
+    "tamano": "Grande",
+    "peso": "20-32 kg",
+    "esperanza_vida": "12-13 años",
+    "temperamento": "Amistoso, determinado, vigoroso e inteligente",
+    "descripcion": "Sabueso americano desarrollado para la caza del mapache. Voz potente, nariz fina y energía incansable para el campo."
+  },
+  {
+    "clave": "weimaraner",
+    "nombre": "Weimaraner",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "25-40 kg",
+    "esperanza_vida": "11-13 años",
+    "temperamento": "Enérgico, inteligente, leal y protector",
+    "descripcion": "El 'fantasma gris' de Weimar: ojos ámbar y pelaje plateado. Perro de caza aristócrata alemán, extremadamente activo e inteligente."
+  },
+  {
+    "clave": "welsh_springer_spaniel",
+    "nombre": "Welsh Springer Spaniel",
+    "origen": "Gales",
+    "tamano": "Mediano",
+    "peso": "16-20 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Enérgico, leal, amistoso e inteligente",
+    "descripcion": "Spaniel rojo y blanco de Gales, nacido para cazar urogallos. Alegre, trabajador y totalmente leal a su familia."
+  },
+  {
+    "clave": "west_highland_white_terrier",
+    "nombre": "West Highland White Terrier",
+    "origen": "Escocia",
+    "tamano": "Pequeño",
+    "peso": "7-10 kg",
+    "esperanza_vida": "12-16 años",
+    "temperamento": "Valiente, vivo, leal e independiente",
+    "descripcion": "El famoso 'Westie' blanco del whisky escocés. Terrier de caza de zorros y tejones, alegre, tenaz y de gran personalidad."
+  },
+  {
+    "clave": "yorkshire_terrier",
+    "nombre": "Yorkshire Terrier",
+    "origen": "Inglaterra (Yorkshire)",
+    "tamano": "Pequeño",
+    "peso": "2-4 kg",
+    "esperanza_vida": "13-16 años",
+    "temperamento": "Enérgico, leal, vivaz e inteligente",
+    "descripcion": "El 'Yorkie' de pelo sedoso azul-fuego. Desde perros de caza de ratas en fábricas a adornos de regazo, elegante y valiente."
+  },
+  {
+    "clave": "affenpinscher",
+    "nombre": "Affenpinscher",
+    "origen": "Alemania",
+    "tamano": "Pequeño",
+    "peso": "3-6 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Valiente, vivaz, leal y juguetón",
+    "descripcion": "El 'terrier mono': cara chata y expresión de gnomo. Antiguo cazador de roedores alemán convertido en compañero entrañable y atrevido."
+  },
+  {
+    "clave": "basenji",
+    "nombre": "Basenji",
+    "origen": "África Central",
+    "tamano": "Mediano",
+    "peso": "9-11 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Independiente, inteligente, tranquilo y limpio",
+    "descripcion": "El 'perro sin ladrido' de África: emite un grito (barroo) en vez de ladrar. Cazador ancestral del Congo, muy limpio y gatuno."
+  },
+  {
+    "clave": "basset",
+    "nombre": "Basset Hound",
+    "origen": "Francia",
+    "tamano": "Mediano",
+    "peso": "18-29 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Gentil, paciente, terco y afectuoso",
+    "descripcion": "Perro de caza de Francia de patas cortas y orejas largas. Olfato excepcional para liebres, dulzón y extremadamente noble."
+  },
+  {
+    "clave": "beagle",
+    "nombre": "Beagle",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "9-11 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Amistoso, curioso, decidido y alegre",
+    "descripcion": "El sabueso alegre de Snoopy. Perro de jauría de caza de liebres, extremadamente sociable, adaptado a familias y niños."
+  },
+  {
+    "clave": "black_and_tan_coonhound",
+    "nombre": "Black and Tan Coonhound",
+    "origen": "Estados Unidos",
+    "tamano": "Grande",
+    "peso": "27-32 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Amistoso, fiel, decidido e inteligente",
+    "descripcion": "El descendiente del Bloodhound americano. Cazador nocturno de mapaches de voz cavernosa, paciente y tenaz en el rastreo."
+  },
+  {
+    "clave": "bloodhound",
+    "nombre": "Bloodhound",
+    "origen": "Bélgica/Inglaterra",
+    "tamano": "Grande",
+    "peso": "36-50 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Gentil, independiente, enérgico y leal",
+    "descripcion": "El sabueso con el mejor olfato del mundo (300M de receptores). Perro de rastreo policial durante siglos, noble y paciente."
+  },
+  {
+    "clave": "bluetick",
+    "nombre": "Bluetick Coonhound",
+    "origen": "Estados Unidos",
+    "tamano": "Grande",
+    "peso": "18-36 kg",
+    "esperanza_vida": "11-12 años",
+    "temperamento": "Inteligente, leal, alerta e independiente",
+    "descripcion": "Coonhound azul moteado descendiente del Grand Bleu de Gascogne. Cazador de mapaches y jabalíes de nariz fina y determinación total."
+  },
+  {
+    "clave": "borzoi",
+    "nombre": "Borzoi (Lebrel Ruso)",
+    "origen": "Rusia",
+    "tamano": "Gigante",
+    "peso": "27-48 kg",
+    "esperanza_vida": "9-14 años",
+    "temperamento": "Gentil, independiente, elegante y reservado",
+    "descripcion": "El galgo de los zares: cazador de lobos para la aristocracia rusa. Silueta elegante y pelaje sedoso, galgo de corazón sensible."
+  },
+  {
+    "clave": "boxer",
+    "nombre": "Bóxer",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "25-32 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Juguetón, leal, enérgico e inteligente",
+    "descripcion": "El 'perro payaso' de los alemanes: musculoso, siempre de buen humor. Antiguo cazador de jabalíes, hoy guardián cariñoso y guardián nato."
+  },
+  {
+    "clave": "briard",
+    "nombre": "Briard",
+    "origen": "Francia",
+    "tamano": "Grande",
+    "peso": "32-45 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Inteligente, leal, protector y cariñoso",
+    "descripcion": "El pastor francés de capa larga e histórica de la corte de Luis XIV. Guardián de ovejas y triunfador en rescate en la 1ª y 2ª Guerra Mundial."
+  },
+  {
+    "clave": "bull_mastiff",
+    "nombre": "Bullmastiff",
+    "origen": "Inglaterra",
+    "tamano": "Gigante",
+    "peso": "45-60 kg",
+    "esperanza_vida": "8-10 años",
+    "temperamento": "Leal, valiente, tranquilo y confiable",
+    "descripcion": "El perro guardián de los guardabosques ingleses contra furtivos. Mitad mastín, mitad bulldog: poderoso, discreto y protector nato."
+  },
+  {
+    "clave": "cairn",
+    "nombre": "Cairn Terrier",
+    "origen": "Escocia",
+    "tamano": "Pequeño",
+    "peso": "6-8 kg",
+    "esperanza_vida": "13-15 años",
+    "temperamento": "Vivaz, valiente, alegre e independiente",
+    "descripcion": "El 'Toto' del Mago de Oz. Terrier primitivo de las islas escocesas, cazador de zorros bajo las rocas (cairns), incansable y valiente."
+  },
+  {
+    "clave": "chow",
+    "nombre": "Chow Chow",
+    "origen": "China",
+    "tamano": "Grande",
+    "peso": "20-32 kg",
+    "esperanza_vida": "8-12 años",
+    "temperamento": "Independiente, reservado, leal y digno",
+    "descripcion": "El perro león chino de lengua negra y pelaje lanudo. Guardián de la corte Qing y de templos, independiente y profundamente leal."
+  },
+  {
+    "clave": "clumber",
+    "nombre": "Clumber Spaniel",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "27-39 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Gentil, paciente, inteligente y calmado",
+    "descripcion": "El spaniel más pesado del mundo, favorito del duque de Newcastle. Cazador metódico de caza menor, noble y de bajo perfil."
+  },
+  {
+    "clave": "cocker_spaniel",
+    "nombre": "Cocker Spaniel",
+    "origen": "Inglaterra/Estados Unidos",
+    "tamano": "Mediano",
+    "peso": "11-15 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Afectuoso, alegre, inteligente y sensible",
+    "descripcion": "El spaniel de orejas largas de la corte inglesa. Cazador de becadas (woodcock), hoy uno de los perros de compañía más populares del mundo."
+  },
+  {
+    "clave": "collie",
+    "nombre": "Collie (Pastor Escocés)",
+    "origen": "Escocia",
+    "tamano": "Grande",
+    "peso": "18-29 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Leal, inteligente, dulce y protector",
+    "descripcion": "La 'Lassie' original: pastor escocés de cabeza fina. Uno de los perros de pastoreo más inteligentes y leales, muy cariñoso con niños."
+  },
+  {
+    "clave": "curly_coated_retriever",
+    "nombre": "Curly-Coated Retriever",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "27-41 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Confiado, inteligente, enérgico e independiente",
+    "descripcion": "El retriever de rizos más antiguo: pelaje rizado impermeable. Antiguo cazador de nutrias y patos, confiado y muy activo en el agua."
+  },
+  {
+    "clave": "dhole",
+    "nombre": "Dhole (Perro Salvaje Asiático)",
+    "origen": "Asia",
+    "tamano": "Mediano-Grande",
+    "peso": "11-20 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Sociable en manada, valiente y ágil",
+    "descripcion": "El cálido 'perro rojo' de la India y Asia. Cánido salvaje que caza en manadas coordinadas, no es una raza doméstica sino salvaje."
+  },
+  {
+    "clave": "dingo",
+    "nombre": "Dingo",
+    "origen": "Australia",
+    "tamano": "Mediano",
+    "peso": "13-20 kg",
+    "esperanza_vida": "10-14 años",
+    "temperamento": "Independiente, curioso, alerta e inteligente",
+    "descripcion": "El perro salvaje de Australia desde hace 4000 años. Cánido nativo de gran inteligencia y carácter independiente, no ladra como los domésticos."
+  },
+  {
+    "clave": "flat_coated_retriever",
+    "nombre": "Flat-Coated Retriever",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "25-36 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Optimista, enérgico, afectuoso y vivaz",
+    "descripcion": "El retriever de pelo liso y sonrisa permanente. Antiguo cazador de codornices y patos, conocido por su alegría y su carácter eternamente cachorro."
+  },
+  {
+    "clave": "giant_schnauzer",
+    "nombre": "Schnauzer Gigante",
+    "origen": "Alemania",
+    "tamano": "Grande",
+    "peso": "25-48 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Vigilante, inteligente, leal y dominante",
+    "descripcion": "El perro de granja bávaro más grande y potente. Guardián de ganado y hoy perro de policía y protección, requiere dueño con experiencia."
+  },
+  {
+    "clave": "golden_retriever",
+    "nombre": "Golden Retriever",
+    "origen": "Escocia",
+    "tamano": "Grande",
+    "peso": "25-36 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Amistoso, inteligente, leal y paciente",
+    "descripcion": "El perro de familia más querido del mundo. Recuperador de aves acuáticas del duque de Argyll, perfecto para terapias y ayuda a discapacitados."
+  },
+  {
+    "clave": "groenendael",
+    "nombre": "Pastor Belga Groenendael",
+    "origen": "Bélgica",
+    "tamano": "Grande",
+    "peso": "20-30 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Inteligente, alerta, leal e independiente",
+    "descripcion": "El pastor belga de pelo negro y largo. Perro de trabajo universal: pastoreo, policía y protección, extremadamente inteligente y versátil."
+  },
+  {
+    "clave": "keeshond",
+    "nombre": "Keeshond",
+    "origen": "Países Bajos/Alemania",
+    "tamano": "Mediano",
+    "peso": "16-20 kg",
+    "esperanza_vida": "12-13 años",
+    "temperamento": "Amistoso, cariñoso, vivaz e inteligente",
+    "descripcion": "El 'sonrisa holandesa': spitz gris-atigrado de los barcos de canales neerlandeses. Compañero eternamente contento y muy apegado a su familia."
+  },
+  {
+    "clave": "kelpie",
+    "nombre": "Kelpie Australiano",
+    "origen": "Australia",
+    "tamano": "Mediano",
+    "peso": "11-20 kg",
+    "esperanza_vida": "10-14 años",
+    "temperamento": "Incansable, inteligente, alerta e independiente",
+    "descripcion": "El perro de pastoreo más trabajador de Australia. Nacido para mover miles de ovejas en el outback, energía inagotable y gran inteligencia."
+  },
+  {
+    "clave": "komondor",
+    "nombre": "Komondor",
+    "origen": "Hungría",
+    "tamano": "Gigante",
+    "peso": "50-60 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Independiente, protector, valiente e inteligente",
+    "descripcion": "El perro cordero húngaro: pelaje de dreadlocks blanco que lo camufla entre ovejas. Guardián de rebaños desde la Edad Media, valiente y digno."
+  },
+  {
+    "clave": "kuvasz",
+    "nombre": "Kuvasz",
+    "origen": "Hungría",
+    "tamano": "Gigante",
+    "peso": "32-52 kg",
+    "esperanza_vida": "10-12 años",
+    "temperamento": "Leal, protector, independiente y tranquilo",
+    "descripcion": "El guardián blanco húngaro de la nobleza de Matías Corvino. Perro protector de rebaños contra lobos, independiente y de corazón noble."
+  },
+  {
+    "clave": "malamute",
+    "nombre": "Malamute de Alaska",
+    "origen": "Alaska",
+    "tamano": "Grande-Gigante",
+    "peso": "34-45 kg",
+    "esperanza_vida": "10-14 años",
+    "temperamento": "Leal, cariñoso, enérgico e independiente",
+    "descripcion": "El perro inuit más grande de trineo: poder y resistencia. Ojos almendrados y pelaje lanudo, compañero de exploradores del Polo Norte."
+  },
+  {
+    "clave": "malinois",
+    "nombre": "Pastor Belga Malinois",
+    "origen": "Bélgica",
+    "tamano": "Grande",
+    "peso": "18-36 kg",
+    "esperanza_vida": "14-16 años",
+    "temperamento": "Trabajador, inteligente, leal y alerta",
+    "descripcion": "El perro de trabajo #1 del mundo: policía, militar, búsqueda y rescate. Pastor belga de pelo corto, energía y velocidad excepcionales."
+  },
+  {
+    "clave": "miniature_pinscher",
+    "nombre": "Pinscher Miniatura",
+    "origen": "Alemania",
+    "tamano": "Pequeño",
+    "peso": "3-6 kg",
+    "esperanza_vida": "12-16 años",
+    "temperamento": "Vivo, valiente, alerta e independiente",
+    "descripcion": "El 'Rey de los Juguetes' alemán. Pinscher miniatura para cazar ratas en establos, hoy compañero elegante y con carácter de gigante en miniatura."
+  },
+  {
+    "clave": "miniature_poodle",
+    "nombre": "Caniche Miniatura",
+    "origen": "Francia/Alemania",
+    "tamano": "Pequeño",
+    "peso": "7-8 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Inteligente, leal, activo y alegre",
+    "descripcion": "El retriever acuático miniatura de pelaje rizado. Uno de los perros más inteligentes del mundo, deportista y compañero ideal en apartamentos."
+  },
+  {
+    "clave": "miniature_schnauzer",
+    "nombre": "Schnauzer Miniatura",
+    "origen": "Alemania",
+    "tamano": "Pequeño",
+    "peso": "5-9 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Vivaz, leal, valiente y alerta",
+    "descripcion": "El Schnauzer miniatura de bigotes y cejas expresivos. El perro más popular de Alemania, nacido para cazar ratas en granjas, gran compañero urbano."
+  },
+  {
+    "clave": "otterhound",
+    "nombre": "Otterhound",
+    "origen": "Inglaterra",
+    "tamano": "Grande",
+    "peso": "32-52 kg",
+    "esperanza_vida": "10-13 años",
+    "temperamento": "Afable, relajado, tenaz e inteligente",
+    "descripcion": "El sabueso de nutrias de Inglaterra: pelaje partido e impermeable. Uno de los perros más raros y amables del mundo, nade como una nutria."
+  },
+  {
+    "clave": "papillon",
+    "nombre": "Papillón (Epagneul Enano)",
+    "origen": "Francia/Bélgica",
+    "tamano": "Pequeño",
+    "peso": "3-5 kg",
+    "esperanza_vida": "12-16 años",
+    "temperamento": "Amistoso, vivaz, alerta e inteligente",
+    "descripcion": "El 'perro mariposa' por sus orejas erguidas. Favorito de la corte de Versalles, pequeño atleta e inteligente, encantador y elegante."
+  },
+  {
+    "clave": "pug",
+    "nombre": "Carlino (Pug)",
+    "origen": "China",
+    "tamano": "Pequeño",
+    "peso": "6-8 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Alegre, cariñoso, juguetón y obediente",
+    "descripcion": "El 'perro payaso' de la dinastía Qing: cara chata y ojos grandes. Compañero de emperadores chinos y de Guillermo III de Orange, adorable y soñoliento."
+  },
+  {
+    "clave": "redbone",
+    "nombre": "Redbone Coonhound",
+    "origen": "Estados Unidos",
+    "tamano": "Mediano-Grande",
+    "peso": "20-32 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Amistoso, inteligente, leal e independiente",
+    "descripcion": "El coonhound rojo de voz rica de los Estados Unidos. Cazador nocturno de mapaches desarrollado en Tennessee y Georgia, energético y leal."
+  },
+  {
+    "clave": "schipperke",
+    "nombre": "Schipperke",
+    "origen": "Bélgica",
+    "tamano": "Pequeño",
+    "peso": "3-9 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Curioso, alerta, vivo e independiente",
+    "descripcion": "El pequeño 'capitán' negro de los canales belgas. Guardián de barcos de mercancía, vivaz, valiente y extremadamente curioso."
+  },
+  {
+    "clave": "silky_terrier",
+    "nombre": "Silky Terrier",
+    "origen": "Australia",
+    "tamano": "Pequeño",
+    "peso": "4-5 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Animado, leal, alerta e independiente",
+    "descripcion": "El terrier sedoso australiano de pelaje azul-fuego. Nacido para cazar roedores, hoy compañero urbano elegante y lleno de energía."
+  },
+  {
+    "clave": "soft_coated_wheaten_terrier",
+    "nombre": "Soft Coated Wheaten Terrier",
+    "origen": "Irlanda",
+    "tamano": "Mediano",
+    "peso": "16-21 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Cariñoso, enérgico, valiente y leal",
+    "descripcion": "El único terrier irlandés de pelaje suave trigo. Antiguo perro de granja múltiple: cazador, pastor y guardián, alegre y de gran corazón."
+  },
+  {
+    "clave": "standard_poodle",
+    "nombre": "Caniche Estándar",
+    "origen": "Francia/Alemania",
+    "tamano": "Grande",
+    "peso": "20-32 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Inteligente, leal, activo y sensible",
+    "descripcion": "El retriever acuático rizado por excelencia. Uno de los perros más inteligentes del mundo, usado como actor, atleta de obediencia y perro de servicio."
+  },
+  {
+    "clave": "standard_schnauzer",
+    "nombre": "Schnauzer Estándar",
+    "origen": "Alemania",
+    "tamano": "Mediano",
+    "peso": "14-20 kg",
+    "esperanza_vida": "13-16 años",
+    "temperamento": "Vivaz, leal, alerta e inteligente",
+    "descripcion": "El Schnauzer original de bigotes y cara de ceja. Cazador de ratas de granja y guardián de caballos y carruajes, muy versátil y enérgico."
+  },
+  {
+    "clave": "toy_poodle",
+    "nombre": "Caniche Toy",
+    "origen": "Francia/Alemania",
+    "tamano": "Muy pequeño",
+    "peso": "2-5 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Inteligente, leal, vivaz y juguetón",
+    "descripcion": "El caniche más pequeño de la familia. Favorito de la aristocracia francesa y de la corte de Luis XVI, extremadamente inteligente y sociable."
+  },
+  {
+    "clave": "toy_terrier",
+    "nombre": "Toy Terrier (English Toy Terrier)",
+    "origen": "Inglaterra",
+    "tamano": "Pequeño",
+    "peso": "2-4 kg",
+    "esperanza_vida": "12-13 años",
+    "temperamento": "Valiente, alerta, leal e independiente",
+    "descripcion": "El pequeño terrier negro y fuego de la era victoriana. Cazador de ratas para nobleza inglesa, hoy compañero elegante y con gran confianza."
+  },
+  {
+    "clave": "vizsla",
+    "nombre": "Vizsla",
+    "origen": "Hungría",
+    "tamano": "Grande",
+    "peso": "18-30 kg",
+    "esperanza_vida": "12-14 años",
+    "temperamento": "Cariñoso, enérgico, sensible e inteligente",
+    "descripcion": "El 'perro húngaro dorado': señalador y cobrador de pelo corto. Favorito de la nobleza húngara desde el siglo XIV, extremadamente deportista y apegado."
+  },
+  {
+    "clave": "whippet",
+    "nombre": "Whippet",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "9-14 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Gentil, tranquilo, rápido y sensible",
+    "descripcion": "El 'corredor de pobres': galgo miniatura de los mineros ingleses. Uno de los perros más rápidos del mundo, cariñoso y elegante en interiores."
+  },
+  {
+    "clave": "wire_haired_fox_terrier",
+    "nombre": "Fox Terrier de Pelo Duro",
+    "origen": "Inglaterra",
+    "tamano": "Mediano",
+    "peso": "6-9 kg",
+    "esperanza_vida": "12-15 años",
+    "temperamento": "Valiente, alerta, enérgico y vivaz",
+    "descripcion": "El perro de caza del zorro de capa dura. Poco común, valiente y muy activo, estuvo en la corte británica y hoy es una raza rara pero encantadora."
+  }
+]

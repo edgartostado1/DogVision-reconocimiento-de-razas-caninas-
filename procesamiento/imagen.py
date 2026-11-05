@@ -36,6 +36,7 @@ def preprocesar_imagen(imagen: np.ndarray) -> torch.Tensor:
 
 
 def preprocesar_imagen_pil(imagen_pil: Image.Image) -> torch.Tensor:
+    imagen_pil = imagen_pil.convert("RGB")  # PNG/RGBA → 3 canales RGB
     transformacion = transforms.Compose([
         transforms.Resize((TAMANO_IMAGEN, TAMANO_IMAGEN)),
         transforms.ToTensor(),
