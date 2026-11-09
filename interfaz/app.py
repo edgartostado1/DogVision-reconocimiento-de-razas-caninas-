@@ -121,11 +121,11 @@ def pagina_inicio(model):
 
     if model is None:
         st.markdown(f"""
-<div class="card" style="text-align:center;">
-    <h3 style="margin-top:0;">Modelo no encontrado</h3>
-    <p style="color:var(--text-muted);">No existe <code>{MODEL_PATH}</code></p>
-    <p style="color:var(--text-muted); font-size:.9rem;">Ejecuta:</p>
-    <code style="background:var(--bg); padding:.5rem 1rem; border-radius:6px; display:inline-block;">python -m modelo.entrenamiento</code>
+<div class="card" class="text-center">
+    <h3 class="mt-0">Modelo no encontrado</h3>
+    <p class="text-muted">No existe <code>{MODEL_PATH}</code></p>
+    <p class="text-muted-sm">Ejecuta:</p>
+    <code class="code-block">python -m modelo.entrenamiento</code>
 </div>
 """, unsafe_allow_html=True)
         return
@@ -155,7 +155,7 @@ def pagina_inicio(model):
             with col_img:
                 st.image(fp, width=260)
             with col_info:
-                st.markdown(f'<div style="padding-top:1.5rem; font-weight:700; font-size:1.1rem;">{format_breed(fb)}</div>', unsafe_allow_html=True)
+                st.markdown(f'<div class="famous-name">{format_breed(fb)}</div>', unsafe_allow_html=True)
                 st.markdown(f'<div class="img-info">{fi + 1} / {len(famous_items)}</div>', unsafe_allow_html=True)
             c1, c2 = st.columns(2)
             with c1:
@@ -168,7 +168,7 @@ def pagina_inicio(model):
                     st.rerun()
             st.markdown('</div>', unsafe_allow_html=True)
 
-        st.markdown('<div class="card" style="text-align:center; color:var(--text-muted);">Sube una foto de un perro para empezar</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card" class="text-center-muted">Sube una foto de un perro para empezar</div>', unsafe_allow_html=True)
         return
 
     img = Image.open(uploaded)
@@ -252,13 +252,13 @@ def pagina_inicio(model):
             if p < 0.1: continue
             with cols[ci % 3]:
                 st.markdown(f"""
-<div style="padding:.5rem; background:var(--bg); border-radius:8px; border:1px solid var(--border); margin-bottom:.5rem;">
-    <div style="font-weight:600; font-size:.85rem;">{format_breed(CATEGORIAS[i])}</div>
-    <div style="display:flex; gap:.5rem; margin-top:.25rem;">
-        <div style="flex:1; height:4px; background:var(--border); border-radius:2px; overflow:hidden;">
+<div class="prob-item">
+    <div class="prob-name">{format_breed(CATEGORIAS[i])}</div>
+    <div class="prob-row">
+        <div class="prob-bar">
             <div style="width:{p:.1f}%; height:100%; background:linear-gradient(90deg,var(--primary),#3b82f6);"></div>
         </div>
-        <span style="font-size:.75rem; font-weight:600; color:var(--primary); min-width:40px;">{p:.2f}%</span>
+        <span class="prob-pct">{p:.2f}%</span>
     </div>
 </div>
 """, unsafe_allow_html=True)
@@ -280,7 +280,7 @@ def pagina_reporte():
 
     pred = st.session_state.get("ultima_pred")
     if not pred:
-        st.markdown('<div class="card" style="text-align:center; color:var(--text-muted);">Aun no has hecho ninguna prediccion. Ve a "Inicio" y sube una imagen.</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card" class="text-center-muted">Aun no has hecho ninguna prediccion. Ve a "Inicio" y sube una imagen.</div>', unsafe_allow_html=True)
         return
 
     img = pred["img"]
@@ -289,7 +289,7 @@ def pagina_reporte():
     top5 = pred["top5"]
     nombre_raza = pred["nombre"]
 
-    st.markdown(f'<div class="card"><h3 style="margin-top:0;">Ultima prediccion: {nombre_raza} ({conf:.1f}%)</h3></div>', unsafe_allow_html=True)
+    st.markdown(f'<div class="card"><h3 class="mt-0">Ultima prediccion: {nombre_raza} ({conf:.1f}%)</h3></div>', unsafe_allow_html=True)
 
     top5_list = [
         {"breed": format_breed(CATEGORIAS[i]), "prob": p * 100}
@@ -326,7 +326,7 @@ def pagina_catalogo():
 
     razas = obtener_todas()
     if not razas:
-        st.markdown('<div class="card" style="text-align:center; color:var(--text-muted);">No hay datos. Ejecuta: python -m database.crear_db</div>', unsafe_allow_html=True)
+        st.markdown('<div class="card" class="text-center-muted">No hay datos. Ejecuta: python -m database.crear_db</div>', unsafe_allow_html=True)
         return
 
     nombres = [f"{r['nombre']} ({r['clave']})" for r in razas]
@@ -344,8 +344,8 @@ def pagina_catalogo():
     for ci, r in enumerate(razas):
         with cols[ci % 3]:
             st.markdown(f"""
-<div style="padding:.4rem .6rem; background:var(--bg); border:1px solid var(--border); border-radius:6px; margin-bottom:.4rem; font-size:.85rem;">
-    <b>{r['nombre']}</b><br><span style="color:var(--text-muted); font-size:.75rem;">{r['origen']}</span>
+<div class="breed-chip">
+    <b>{r['nombre']}</b><br><span class="text-muted-xs">{r['origen']}</span>
 </div>
 """, unsafe_allow_html=True)
 
@@ -358,7 +358,7 @@ def pagina_nosotros():
 
     html = (
         '<div class="card">'
-        '<h3 style="margin-top:0;">Equipo DogVision</h3>'
+        '<h3 class="mt-0">Equipo DogVision</h3>'
         '<p>Somos un equipo apasionado por la inteligencia artificial aplicada a la vision por computadora. '
         'Desarrollamos DogVision como proyecto educativo para demostrar como el Deep Learning puede '
         'identificar razas caninas a partir de una sola imagen.</p>'
@@ -394,9 +394,6 @@ def main():
         col_l, col_c, col_r = st.columns([1, 2, 1])
         with col_c:
             st.image(str(logo_path), use_container_width=True)
-    st.markdown("""
-<div class="hero-tagline">Identificacion de razas caninas con Deep Learning</div>
-""", unsafe_allow_html=True)
 
     pagina = sidebar_nav()
 
