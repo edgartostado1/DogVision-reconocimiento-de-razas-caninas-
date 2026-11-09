@@ -31,3 +31,6 @@ Thumbs.db
 
 # Variables de entorno
 .env
+database/razas.db
+
+database/razas.db
