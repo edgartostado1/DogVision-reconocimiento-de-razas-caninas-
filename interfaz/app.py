@@ -5,6 +5,7 @@ import streamlit as st
 from PIL import Image
 import torch
 from pathlib import Path
+import random
 
 from modelo.red_neuronal import CATEGORIAS, cargar_modelo_entrenado
 from procesamiento.imagen import preprocesar_imagen_pil
@@ -52,6 +53,34 @@ def get_famous_images():
         if imgs:
             items.append((breed, str(imgs[0])))
     return items
+
+
+@st.cache_data(show_spinner=False)
+def get_breed_photos(clave: str, n: int = 3):
+    """Devuelve hasta n rutas de imagen de una raza desde data/train."""
+    breed_dir = Path("data/train") / clave.replace("_", " ").title() if False else None
+    # Buscar carpeta que coincida (case-insensitive)
+    train_dir = Path("data/train")
+    if not train_dir.exists():
+        return []
+    # Encontrar carpeta cuyo nombre normalizado coincide con la clave
+    target = clave.lower().replace("_", " ")
+    folder = None
+    for d in train_dir.iterdir():
+        if d.is_dir() and d.name.lower().replace("_", " ") == target:
+            folder = d
+            break
+    if folder is None:
+        # fallback: buscar por clave directa
+        folder = train_dir / clave
+        if not folder.is_dir():
+            return []
+    imgs = sorted(folder.glob("*.jpg"))
+    if not imgs:
+        return []
+    random.seed(42)
+    chosen = random.sample(imgs, min(n, len(imgs)))
+    return [str(p) for p in chosen]
 
 
 def render_ficha(raza_clave: str):
@@ -190,6 +219,27 @@ def pagina_inicio(model):
 
     breed = CATEGORIAS[idx]
     nombre_raza = format_breed(breed)
+
+    # Validacion: si la confianza es baja, probablemente no es un perro
+    UMBRAL_PERRO = 30.0
+    if conf < UMBRAL_PERRO:
+        st.markdown(f"""
+<div class="card result" style="border-color: #dc3545;">
+    <div class="result-badge" style="background: #dc3545;">No es un perro</div>
+    <h2 class="breed-name" style="color: #dc3545;">No parece ser un perro</h2>
+    <p style="color: var(--text-muted); margin: 0.5rem 0 1rem;">
+        La confianza mas alta es solo {conf:.1f}%. El modelo no esta seguro de que la imagen contenga un perro.
+        Prueba con una foto mas clara de un perro.
+    </p>
+    <div class="meter"><div class="meter-fill" style="width:{conf:.1f}%; background: #dc3545;"></div></div>
+    <div class="meter-labels">
+        <span class="label">Confianza maxima</span>
+        <span class="value" style="color: #dc3545;">{conf:.1f}%</span>
+    </div>
+</div>
+""", unsafe_allow_html=True)
+        st.session_state["ultima_pred"] = None
+        return
 
     st.markdown(f"""
 <div class="card result">
@@ -334,20 +384,18 @@ def pagina_catalogo():
 
     if seleccion != "- selecciona -":
         clave = seleccion.split("(")[-1].rstrip(")")
-        ficha = obtener_raza(clave)
-        if ficha:
-            st.markdown(f'<div class="card"><h2 class="breed-name">{ficha["nombre"]}</h2></div>', unsafe_allow_html=True)
-            render_ficha(clave)
+        if st.button("Ver ficha completa", key=f"ver_{clave}"):
+            st.session_state["raza_seleccionada"] = clave
+            st.rerun()
 
-    st.markdown("### Todas las razas")
+    # Grid de razas clickeables
+    st.markdown("### Todas las razas (clic para ver ficha)")
     cols = st.columns(3)
     for ci, r in enumerate(razas):
         with cols[ci % 3]:
-            st.markdown(f"""
-<div class="breed-chip">
-    <b>{r['nombre']}</b><br><span class="text-muted-xs">{r['origen']}</span>
-</div>
-""", unsafe_allow_html=True)
+            if st.button(r['nombre'], key=f"breed_{r['clave']}"):
+                st.session_state["raza_seleccionada"] = r['clave']
+                st.rerun()
 
 
 # ============================================================
@@ -378,6 +426,43 @@ def pagina_nosotros():
     st.markdown(html, unsafe_allow_html=True)
 
 
+
+# ============================================================
+# PAGINA: FICHA COMPLETA DE UNA RAZA
+# ============================================================
+def pagina_ficha_completa():
+    st.markdown('<div class="hero-tagline">Ficha completa de la raza</div>', unsafe_allow_html=True)
+
+    clave = st.session_state.get("raza_seleccionada")
+    if not clave:
+        st.markdown('<div class="card" style="text-align:center; color:var(--text-muted);">Selecciona una raza en "Catalogo de razas" para ver su ficha completa.</div>', unsafe_allow_html=True)
+        return
+
+    ficha = obtener_raza(clave)
+    if ficha is None:
+        st.markdown('<div class="card" style="text-align:center; color:var(--text-muted);">No hay informacion para esta raza.</div>', unsafe_allow_html=True)
+        return
+
+    st.markdown(f'<div class="card"><h2 class="breed-name">{ficha["nombre"]}</h2></div>', unsafe_allow_html=True)
+
+    # Galeria de 3 fotos
+    photos = get_breed_photos(clave, 3)
+    if photos:
+        st.markdown('<div class="card">', unsafe_allow_html=True)
+        st.markdown("### Fotos de ejemplo")
+        cols = st.columns(len(photos))
+        for ci, p in enumerate(photos):
+            with cols[ci]:
+                st.image(p, use_container_width=True)
+        st.markdown('</div>', unsafe_allow_html=True)
+
+    render_ficha(clave)
+
+    if st.button("Volver al catalogo"):
+        st.session_state["raza_seleccionada"] = None
+        st.rerun()
+
+
 # ============================================================
 # MAIN
 # ============================================================
@@ -396,6 +481,11 @@ def main():
             st.image(str(logo_path), use_container_width=True)
 
     pagina = sidebar_nav()
+
+    # Si hay una raza seleccionada, mostrar su ficha completa (sin menu)
+    if st.session_state.get("raza_seleccionada"):
+        pagina_ficha_completa()
+        return
 
     if pagina == "Inicio":
         pagina_inicio(load_model())
